@@ -5,42 +5,89 @@
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++| MAIN |+++++++++++++++++++++++++++++++++++++++++++++++
-int dist = 1000;
+int dist = 0;
 
-void drive(int dist,bool bf){
-	int backwardForward = (bf) ? (1):(-1);
+void drive(int dist){
+		SensorValue[rightEncoder] = 0;
+	SensorValue[leftEncoder]  = 0;
 	while(dist > abs(SensorValue[leftEncoder])){
+
 		if(SensorValue[rightEncoder] == SensorValue[leftEncoder])
 		{
 
-			motor[rightMotor] = 80*backwardForward;
-			motor[leftMotor]  = 80*backwardForward;
+			motor[rightMotor] = 80;
+			motor[leftMotor]  = 80;
 		}
 		else if(SensorValue[rightEncoder] > SensorValue[leftEncoder])
 		{
 
-			motor[rightMotor] = 60*backwardForward;
-			motor[leftMotor]  = 80*backwardForward;
+			motor[rightMotor] = 60;
+			motor[leftMotor]  = 80;
 		}
 		else
 		{
 
-			motor[rightMotor] = 80*backwardForward;
-			motor[leftMotor]  = 60*backwardForward;
+			motor[rightMotor] = 80;
+			motor[leftMotor]  = 60;
 		}
 	}
 }
+void driveB(int dist){
+		SensorValue[rightEncoder] = 0;
+	SensorValue[leftEncoder]  = 0;
+	while(dist > abs(SensorValue[leftEncoder])){
+		if(SensorValue[rightEncoder] == SensorValue[leftEncoder])
+		{
 
+			motor[rightMotor] = -80;
+			motor[leftMotor]  = -80;
+		}
+		else if(SensorValue[rightEncoder] > SensorValue[leftEncoder])
+		{
+
+			motor[rightMotor] = -60;
+			motor[leftMotor]  = -80;
+		}
+		else
+		{
+
+			motor[rightMotor] = -80;
+			motor[leftMotor]  = -60;
+		}
+	}
+}
+void stopmotor(){
+			motor[rightMotor] = 0;
+			motor[leftMotor]  = 0;
+			wait1Msec(1500);
+	}
 
 task main()
 {
-	drive(10000,false);
-	//wait1Msec(2000);
+	wait1Msec(1000);
 
-	//SensorValue[rightEncoder] = 0;
-	//SensorValue[leftEncoder]  = 0;
-	//for(int i =1;i<5;i++){
-	//	drive(dist *i,true);
-	//	drive(dist *i,false);
-	//}
+	SensorValue[rightEncoder] = 0;
+	SensorValue[leftEncoder]  = 0;
+	for(int i = 1;i<10;i++){
+
+	if(i%2){
+  dist += 700;
+	drive(dist);
+
+	}
+	else{
+	driveB(dist);
+
+	}
+	stopmotor();
+
+	/*
+		dist += 250;
+		drive(dist);
+		stopmotor();
+		dist += 250;
+		driveB(dist);
+		stopmotor();
+		*/
+	}
 }
