@@ -1,10 +1,10 @@
 #pragma config(Sensor, dgtl3, rightEncoder, sensorQuadEncoder)
 #pragma config(Sensor, dgtl1, leftEncoder, 	sensorQuadEncoder)
-#pragma config(Motor, port2, rightMotor,  tmotorNormal, openLoop, reversed)
-#pragma config(Motor, port3, leftMotor, 	tmotorNormal, openLoop)
+#pragma config(Motor, port2, rightMotor,  tmotorNormal, openLoop)
+#pragma config(Motor, port3, leftMotor, 	tmotorNormal, openLoop, reversed)
 
 //+++++++++++++++++++++++++++++++++++++++++++++| MAIN |+++++++++++++++++++++++++++++++++++++++++++++++
-int dist = 0;// 50cm/u*360
+const int dist = 562; // 50cm/u*360
 
 void drive(int dist){ // svo hann keyrir beint og keyrir afram ad nota encoderana
 	SensorValue[rightEncoder] = 0;
