@@ -5,6 +5,7 @@
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++| MAIN |+++++++++++++++++++++++++++++++++++++++++++++++
+//Gamall kóði kíktu á 2_2a vildum samt hafa þennan inni
 int dist = 0;
 
 void drive(int dist){ // svo hann keyrir beint og keyrir afram ad nota encoderana
