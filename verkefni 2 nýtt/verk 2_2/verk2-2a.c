@@ -4,10 +4,10 @@
 #pragma config(Motor, port3, leftMotor, 	tmotorNormal, openLoop)
 
 //+++++++++++++++++++++++++++++++++++++++++++++| MAIN |+++++++++++++++++++++++++++++++++++++++++++++++
-int dist = 0;
+int dist = 0;// 50cm/u*360
 
 void drive(int dist){ // svo hann keyrir beint og keyrir afram ad nota encoderana
-		SensorValue[rightEncoder] = 0;
+	SensorValue[rightEncoder] = 0;
 	SensorValue[leftEncoder]  = 0;
 	while(dist > abs(SensorValue[leftEncoder])){
 		if(SensorValue[rightEncoder] == SensorValue[leftEncoder])
@@ -28,7 +28,7 @@ void drive(int dist){ // svo hann keyrir beint og keyrir afram ad nota encoderan
 	}
 }
 void driveB(int dist){ // her er hann ad niota encoderana til ad keyra afturabak og keyra beint
-		SensorValue[rightEncoder] = 0;
+	SensorValue[rightEncoder] = 0;
 	SensorValue[leftEncoder]  = 0;
 	while(dist > abs(SensorValue[leftEncoder])){
 		if(SensorValue[rightEncoder] == SensorValue[leftEncoder])
@@ -49,10 +49,10 @@ void driveB(int dist){ // her er hann ad niota encoderana til ad keyra afturabak
 	}
 }
 void stopmotor(){ //stoppa alla motora
-			motor[rightMotor] = 0;
-			motor[leftMotor]  = 0;
-			wait1Msec(1500);
-	}
+	motor[rightMotor] = 0;
+	motor[leftMotor]  = 0;
+	wait1Msec(1500);
+}
 
 task main()
 {
@@ -60,17 +60,12 @@ task main()
 
 	SensorValue[rightEncoder] = 0;
 	SensorValue[leftEncoder]  = 0;
-	for(int i = 1;i<10;i++){
+	for(int i = 1;i<5;i++){
+		{
+			drive(dist *i);
+			driveB(dist *i);
+		}
 
-	if(i%2){
-  dist += 500;
-	drive(dist);
-
-	}
-	else{
-	driveB(dist);
-	}
-
-	stopmotor();
+		stopmotor();
 	}
 }
