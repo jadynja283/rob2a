@@ -51,13 +51,10 @@ void driveB(int dist){ // her er hann ad niota encoderana til ad keyra afturabak
 void stopmotor(){ //stoppa alla motora
 	motor[rightMotor] = 0;
 	motor[leftMotor]  = 0;
-	wait1Msec(1500);
 }
 
 task main()
 {
-	wait1Msec(1000);
-
 	SensorValue[rightEncoder] = 0;
 	SensorValue[leftEncoder]  = 0;
 	for(int i = 1;i<5;i++){
