@@ -65,22 +65,22 @@ void turn90Degrees(int left,int right){
 
 task main()
 {
-	int dist = 562;
+	const int dist = 562;
 
-	driveForward(dist);
+	driveForward(dist * i);
 	stopMotors();
 
 	turn90Degrees(127,-127);//haegri beyga
 	stopMotors();
 
 	for (int i = 1; i <= 2; i++){
-		driveForward(dist);
+		driveForward(dist * i);
 		stopMotors();
 		turn90Degrees(-127,127);
 		stopMotors();
 	}
 
-	driveForward(dist);
+	driveForward(dist * i);
 	stopMotors();
 	turn90Degrees(127,-127);
 	stopMotors();
