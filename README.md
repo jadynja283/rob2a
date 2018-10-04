@@ -52,9 +52,8 @@ Mynbandið er inná innu verk2_3.
 Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_3 rétti kóðin er verk2_3a.
 Gamli kóðinn er verk 2_3.
 
-# Verkefni 3
+# Verkefni 3 Fjarstýring
 
-# Fjarstýring
 við fyrst þurftum að teikna til að geta vitað almennilega hvernig við áttum að kóða við lentum ekki í neinum vandræðum með kóðan
 Mynbandið er inná innu verk3.
 Flæðiritið og kóðinn er undir verkefni 3 nýtt kóðin er verk3.
