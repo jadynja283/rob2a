@@ -51,7 +51,7 @@ fyrst teiknuðum við upp flæðiritið fyrir stigann svo skrifuðum við upp fo
 
 Myndbandið er á innu 2_1. 
 
-Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_1 rétti kóðin er síðan verk2_1a.
+Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20n%C3%BDtt/verk%202_1
 
 Gamli kóðinn er verk2_1.
 
@@ -60,7 +60,7 @@ fyrst kóðuðum við smá og skoðuðum fyrsta hluta síðan teiknuðum við og
 
 Mynbandið er inná innu verk2_2.
 
-Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_2 rétti kóðin er verk2_2a.
+Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20n%C3%BDtt/verk%202_2
 
 Gamli kóðinn er verk 2_2.
 
@@ -69,7 +69,7 @@ fyrst reiknuðumm við hjólið til að vita hve langt hann þarf að fara til a
 
 Mynbandið er inná innu verk2_3.
 
-Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_3 rétti kóðin er verk2_3a.
+Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20nýtt/verk%202_3
 
 Gamli kóðinn er verk 2_3.
 
@@ -79,6 +79,6 @@ við fyrst þurftum að teikna til að geta vitað almennilega hvernig við átt
 
 Mynbandið er inná innu verk3.
 
-Flæðiritið og kóðinn er undir verkefni 3 nýtt kóðin er verk3.
+Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/Verkefni%203%20n%C3%BDtt
 
 # Verkefni 4
