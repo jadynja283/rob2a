@@ -56,7 +56,7 @@ Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_1 rétti kó�
 Gamli kóðinn er verk2_1.
 
 # Hluti 2 bíbtest(stiginn) með shaft encoder
-fyrst kóðuðum við smá og skoðuðum fyrsa hluta síðan teiknuðum við og kláruðum kóðan.
+fyrst kóðuðum við smá og skoðuðum fyrsta hluta síðan teiknuðum við og kláruðum kóðan.
 
 Mynbandið er inná innu verk2_2.
 
