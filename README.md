@@ -48,26 +48,37 @@ skynjaranum limit switchinn var líka settur hægra meginn að ofan, ultrasonic 
 
 # Hluti 1 bíbtest(stiginn)
 fyrst teiknuðum við upp flæðiritið fyrir stigann svo skrifuðum við upp forritið en við lentum í smá vandræðum.
+
 Myndbandið er á innu 2_1. 
+
 Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_1 rétti kóðin er síðan verk2_1a.
+
 Gamli kóðinn er verk2_1.
 
 # Hluti 2 bíbtest(stiginn) með shaft encoder
 fyrst kóðuðum við smá og skoðuðum fyrsa hluta síðan teiknuðum við og kláruðum kóðan.
+
 Mynbandið er inná innu verk2_2.
+
 Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_2 rétti kóðin er verk2_2a.
+
 Gamli kóðinn er verk 2_2.
 
 # Hluti 3 90° beygjur
 fyrst reiknuðumm við hjólið til að vita hve langt hann þarf að fara til að keyra hálfan meter síðan teiknuðum við og gerðum kóðann.
+
 Mynbandið er inná innu verk2_3.
+
 Flæðiritið og kóðinn er undir verkefni 2 nýtt í möppunni 2_3 rétti kóðin er verk2_3a.
+
 Gamli kóðinn er verk 2_3.
 
 # Verkefni 3 Fjarstýring
 
-við fyrst þurftum að teikna til að geta vitað almennilega hvernig við áttum að kóða við lentum ekki í neinum vandræðum með kóðan
+við fyrst þurftum að teikna til að geta vitað almennilega hvernig við áttum að kóða við lentum ekki í neinum vandræðum með kóðan.
+
 Mynbandið er inná innu verk3.
+
 Flæðiritið og kóðinn er undir verkefni 3 nýtt kóðin er verk3.
 
 # Verkefni 4
