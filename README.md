@@ -6,20 +6,32 @@ vélmenni I grunnur með VEX
 # Tengingar
 # ---------- Motor Port ----------
 Right Motor - Motor Port 2
+
 Left Motor - Motor Port 3
+
 Arm Motor - Motor Port 7
+
 Claw Motor - Motor Port 6
 # ---------- Analog Port ----------
 Line Sensor Left - Analog Port 1
+
 Line Sensor Middle - Analog Port 2
+
 Line Sensor Right - Analog Port 3
+
 Light sensor - analog Port 4
+
 Potentiometer - analog Port 5
+
 # ---------- Digital Port ----------
 Left Shaft Encoder - Top = Port 1, Bottom = Port 2
+
 Right Shaft Encoder - Top = Port 3, Bottom = Port 4
+
 Bumper Switch - Digital Port 6
+
 Limit Switch - Digital Port 7
+
 Ultrasonic Range Finder - INPUT Port 8, OUTPUT Port 9
 
 # Verkefni 1
