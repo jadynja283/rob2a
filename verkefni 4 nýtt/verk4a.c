@@ -1,6 +1,6 @@
 #pragma config(Sensor, dgtl1,  rightEncoder,    sensorQuadEncoder)
 #pragma config(Sensor, dgtl3,  leftEncoder,   sensorQuadEncoder)
-#pragma config(Sensor, in2,    lightSensor,    sensorReflection)
+#pragma config(Sensor, in4,    lightSensor,    sensorReflection)
 #pragma config(Sensor, dgtl5,  pushBtn,        sensorTouch)
 #pragma config(Sensor, dgtl6,  RangeFinder,    sensorSONAR_cm)
 
