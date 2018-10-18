@@ -4,7 +4,7 @@ vélmenni I grunnur með VEX
 # Námsefni frá VEX og Carnegie Mellon háskólanum
  http://www.academia.edu/27829645/VEX_Lab_Schedule
 # Myndbönd
-file:///H:/%C3%96nn%205/ROBO2RG05AU/Myndb%C3%B6nd/myndb%C3%B6nd.html
+ file:///H:/%C3%96nn%205/ROBO2RG05AU/Myndb%C3%B6nd/myndb%C3%B6nd.html
 # Tengingar
 # ---------- Motor Port ----------
 Right Motor - Motor Port 2
