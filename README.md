@@ -5,6 +5,7 @@ vélmenni I grunnur með VEX
  http://www.academia.edu/27829645/VEX_Lab_Schedule
 # Myndbönd
  file:///H:/%C3%96nn%205/ROBO2RG05AU/Myndb%C3%B6nd/myndb%C3%B6nd.html
+ 
  þarft að nota copy paste reyni að laga það
 # Tengingar
 # ---------- Motor Port ----------
