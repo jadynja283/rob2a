@@ -1,8 +1,9 @@
-#pragma config(Sensor, dgtl1,  rightEncoder,    sensorQuadEncoder)
-#pragma config(Sensor, dgtl3,  leftEncoder,   sensorQuadEncoder)
+#pragma config(Sensor, dgtl3,  rightEncoder,    sensorQuadEncoder)
+#pragma config(Sensor, dgtl1,  leftEncoder,   sensorQuadEncoder)
+
 #pragma config(Sensor, in4,    lightSensor,    sensorReflection)
-#pragma config(Sensor, dgtl5,  pushBtn,        sensorTouch)
-#pragma config(Sensor, dgtl6,  RangeFinder,    sensorSONAR_cm)
+#pragma config(Sensor, dgt6,  pushBtn,        sensorTouch)
+#pragma config(Sensor, dgt8,  RangeFinder,    sensorSONAR_cm)
 
 #pragma config(Motor,  port2,           rightMotor,    tmotorServoContinuousRotation, openLoop)
 #pragma config(Motor,  port3,           leftMotor,     tmotorServoContinuousRotation, openLoop, reversed)
