@@ -39,5 +39,5 @@ task main()
 {
 
 	StartTask(drive);
- 	while(vexRT[Btn8U] == 1){}
+ 	while(vexRT[Btn8U] == 1){}StopAllTasks()
 }
