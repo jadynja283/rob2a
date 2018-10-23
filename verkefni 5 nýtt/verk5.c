@@ -31,13 +31,13 @@ task drive()
 			motor[rightMotor] = speed;
 		}
 
-		wait1Msec(20);
+		Sleep(20);
 	}
-
+ 
 }
 task main()
 {
 
 	StartTask(drive);
- 	while(vexRT[Btn8U] == 1){}StopAllTasks()
+ 	while(vexRT[Btn8U] == 1){}
 }
