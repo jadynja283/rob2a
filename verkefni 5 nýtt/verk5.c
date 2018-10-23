@@ -26,7 +26,7 @@ task drive()
 			motor[rightMotor] = speed;
 		}
 		if(SensorValue(lineFollowerLEFT) > threshold)
-		{
+		{//faeri linesensorana naer jordinni og kikja a haegri motorinn keyrir stanslaust
 			motor[leftMotor]  = 0;
 			motor[rightMotor] = speed;
 		}
