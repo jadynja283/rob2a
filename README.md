@@ -53,7 +53,7 @@ skynjaranum limit switchinn var líka settur hægra meginn að ofan, ultrasonic 
 # Hluti 1 bíbtest(stiginn)
 fyrst teiknuðum við upp flæðiritið fyrir stigann svo skrifuðum við upp forritið en við lentum í smá vandræðum.
 
-Myndbandið er á innu 2_1. 
+Það er linkur uppi með myndböndunum.
 
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20n%C3%BDtt/verk%202_1
 
@@ -62,7 +62,7 @@ Gamli kóðinn er verk2_1.
 # Hluti 2 bíbtest(stiginn) með shaft encoder
 fyrst kóðuðum við smá og skoðuðum fyrsta hluta síðan teiknuðum við og kláruðum kóðan.
 
-Mynbandið er inná innu verk2_2.
+Það er linkur uppi með myndböndunum.
 
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20n%C3%BDtt/verk%202_2
 
@@ -71,7 +71,7 @@ Gamli kóðinn er verk 2_2.
 # Hluti 3 90° beygjur
 fyrst reiknuðumm við hjólið til að vita hve langt hann þarf að fara til að keyra hálfan meter síðan teiknuðum við og gerðum kóðann.
 
-Mynbandið er inná innu verk2_3.
+Það er linkur uppi með myndböndunum.
 
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%202%20nýtt/verk%202_3
 
@@ -81,8 +81,14 @@ Gamli kóðinn er verk 2_3.
 
 við fyrst þurftum að teikna til að geta vitað almennilega hvernig við áttum að kóða við lentum ekki í neinum vandræðum með kóðan.
 
-Mynbandið er inná innu verk3.
+Það er linkur uppi með myndböndunum.
 
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/Verkefni%203%20n%C3%BDtt
 
 # Verkefni 4
+
+Hann Jóhann gerði mest af verkefninu með smá hjálp frá kennaranum fyrst var bara sett upp kóða og svo var fínstillt hann.
+
+Það er linkur uppi með myndböndunum.
+
+Flæðiritið og kóðinn: 
