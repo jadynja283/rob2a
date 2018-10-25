@@ -91,4 +91,6 @@ Hann Jóhann gerði mest af verkefninu með smá hjálp frá kennaranum fyrst va
 
 Það er linkur uppi með myndböndunum.
 
-Flæðiritið og kóðinn: 
+Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%204%20n%C3%BDtt
+
+Gamli kóðinn er verk4.c
