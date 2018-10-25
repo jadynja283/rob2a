@@ -94,3 +94,14 @@ Hann Jóhann gerði mest af verkefninu með smá hjálp frá kennaranum fyrst va
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/verkefni%204%20n%C3%BDtt
 
 Gamli kóðinn er verk4.c
+
+# Verkefni 5 Að fylgja línu
+
+Jadyn gerði mest af þessu verkefni á meðan Jóhann gerði verkefni 4 við hjálpumst samt að ef eitt okkar festist. fékk hjálp hjá kennara
+fyrst var sett upp kóði og svo var fínstillt hann síðan var gert flæðirit átti í smá vandræðum með ritið var ekki alveg að skilja verkfnið fyrst.
+
+Það er linkur uppi með myndböndunum.
+
+Flæðiritið og kóðinn:
+
+
