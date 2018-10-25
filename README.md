@@ -85,7 +85,7 @@ við fyrst þurftum að teikna til að geta vitað almennilega hvernig við átt
 
 Flæðiritið og kóðinn: https://github.com/jadynja283/rob2a/tree/master/Verkefni%203%20n%C3%BDtt
 
-# Verkefni 4
+# Verkefni 4 Range og Light Sensorar
 
 Hann Jóhann gerði mest af verkefninu með smá hjálp frá kennaranum fyrst var bara sett upp kóða og svo var fínstillt hann.
 
