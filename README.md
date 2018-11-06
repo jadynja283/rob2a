@@ -102,6 +102,8 @@ fyrst var sett upp kóði og svo var fínstillt hann síðan var gert flæðirit
 
 Það er linkur uppi með myndböndunum.
 
-Flæðiritið og kóðinn:
+Flæðiritið og kóðinn:https://github.com/jadynja283/rob2a/blob/master/verkefni%205%20n%C3%BDtt/verk5.png
+
+Gamli kóðinn er verk5.c
 
 
