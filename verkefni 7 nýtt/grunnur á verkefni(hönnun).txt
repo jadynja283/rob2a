@@ -1,0 +1,17 @@
+verkefni 7
+- Hann fer bara áfram í ljósi
+- neyðarhnappur virkar
+- Hann fylgir línu í smá tíma 
+- hann forðast að klessast á á meðan hann finnur bolta 
+- fer til baka á línunni og skilar þeim í körfu
+- það eru 4 boltar
+------------------------------------------------------
+ÞAÐ SEM ÞARF AÐ NOTA
+------------------------------------------------------
+- LINE SENSORAR
+- RANGE FINDER
+- ALLA MOTORA
+- LIGHT SENSOR
+- POTENTIOMETER
+- NEYÐARHNAPPINN
+------------------------------------------------------
