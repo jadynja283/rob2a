@@ -35,7 +35,7 @@ void arm(int pos){//potentiometer 3160-3100 fyrir nedsta, 2260 fyrir mid, 1100 f
 
 
 
-task drive()
+/*task drive()
 {
 
 	int threshold =2800;
@@ -62,11 +62,11 @@ task drive()
 		}
 	}
 
-}
+}*/
 task main()
 {
 	int threshold =2500;
-	int half=0;
+	//int half=0;
 	//motor[clawMotor] = 80;
 	//arm(2000);
 
@@ -78,7 +78,7 @@ task main()
 		if(SensorValue(lineFollowerRIGHT) > threshold)
 		{
 			motor[leftMotor]  = speed;
-			motor[rightMotor] = -speed*0.2;
+			motor[rightMotor] = -speed*0.4;
 		}
 		if(SensorValue(lineFollowerCENTER) > threshold)
 		{
@@ -87,13 +87,14 @@ task main()
 		}
 		if(SensorValue(lineFollowerLEFT) > threshold)
 		{//faeri linesensorana naer jordinni og kikja a haegri motorinn keyrir stanslaust
-			motor[leftMotor]  = -speed*0.2;
+			motor[leftMotor]  = -speed*0.4;
 			motor[rightMotor] = speed;
 		}
 
-		encoder= (abs(SensorValue[left_encoder])+abs(SensorValue[right_encoder]))/2;
-		/*
 		//-*--*-verk 6 kodi eftir dessa linu-*--*-//
+		encoder= (abs(SensorValue[left_encoder])+abs(SensorValue[right_encoder]))/2;
+
+		/*
 		if(SensorValue(lineFollowerRIGHT) > threshold && SensorValue(lineFollowerCENTER) > threshold && SensorValue(lineFollowerLEFT) > threshold && half == 0)
 		//if(SensorValue(lineFollowerRIGHT) < 2070 && SensorValue(lineFollowerCENTER) < 1650 && SensorValue(lineFollowerLEFT) < 2260 && half == 0)
 		{
@@ -114,6 +115,10 @@ task main()
 		}
 		*/
 	}
+	//*-*-*-*
+	//byrja while loopid aftur eda einhvern likan while loop eftir ad vid erum viss velid getur farid til baka
 	motor[leftMotor]  = 0;
 	motor[rightMotor] = 0;
+	motor[clawMotor] = -80;
+	//wait10Msec(100);
 }
