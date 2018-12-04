@@ -106,4 +106,7 @@ Flæðiritið og kóðinn:https://github.com/jadynja283/rob2a/blob/master/verkef
 
 Gamli kóðinn er verk5.c
 
+# Verkefni 6 Að ná í bolta
+
+Við 
 
