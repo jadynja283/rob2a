@@ -108,5 +108,14 @@ Gamli kóðinn er verk5.c
 
 # Verkefni 6 Að ná í bolta
 
-Við 
+Við byrjuðum á því að nota grunninn úr verkefni 5 og bættum smá ofan á það eins og að láta hann finna vélmennið aftur og opna klónna og ná í einhvað og svo líka loka henni og fara alla leið tilbaka til að skila því lentum í smá vandarmálum með skynjarana og klónna og náðum ekki alveg að klára verkefnið en komumst alveg frekar langt í því og við þurftum hjálp
+
+---------------------------
+4.12.2018
+---------------------------
+hann er ekki að keyra almennilega og beygjir ekki og hann 
+
+Það er linkur fyrir ofan með myndböndunum.
+
+Flæðirit og kóðinn:https://github.com/jadynja283/rob2a/blob/master/verkefni6/verk6.png
 
